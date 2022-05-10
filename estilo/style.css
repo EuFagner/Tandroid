@@ -115,4 +115,5 @@ footer {
     color: white;
     font-family: var(--fonte-destaque);
     text-align: center;
+    padding: 3px;
 }
