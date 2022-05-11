@@ -31,6 +31,10 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+.externo::after {
+    
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
@@ -92,7 +96,7 @@ main {
 
 main p {
     text-indent: 15px;
-    line-height: 2em;
+    line-height: 2.2em;
 }
 
 main h1 {
@@ -136,6 +140,26 @@ main img {
     display: block;
     margin: auto;
     width: 50%;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+    padding: 5px;
+}
+
+aside ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
 }
 
 footer {
