@@ -32,7 +32,7 @@ body {
 }
 
 .externo::after {
-    
+    content: '\1F517';
 }
 
 header {
@@ -119,7 +119,7 @@ main a {
     color: var(--cor5);
     text-decoration: none;
     font-weight: bold;
-    padding: 2px;
+    padding: 2px 7px;
 }
 
 main a:hover {
