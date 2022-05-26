@@ -173,7 +173,9 @@ aside h3 {
 }
 
 aside ul {
+    display: block;
     list-style-position: inside;
+    margin: auto;
     list-style-type: '\2714\00A0\00A0';
     columns: 2;
 }
