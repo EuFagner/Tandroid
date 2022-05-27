@@ -59,7 +59,7 @@ nav a:hover {
 
 .produtos li:hover {
     border: 2px solid #c78c19;
-    cursor: pointer;
+    cursor: ;
 }
 
 .produtos li:hover h2 {
